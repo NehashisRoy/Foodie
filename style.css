@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
 }
 p {
   font-weight: 300;
@@ -239,43 +238,3 @@ section {
   font-weight: 500;
   text-decoration: none;
 }
-/*
-header,
-header.sticky {
-  padding: 10px 20px;
-}
-header .navigation {
-  display: none;
-}
-header .navigation .active {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: #fff;
-}
-.menuToggle {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  background: url(images/menu.png);
-  background-size: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-.menuToggle.active {
-  background: url(images/close.png);
-  background-size: 25px;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-header .sticky.menuToggle {
-  filter: invert(1);
-} */
